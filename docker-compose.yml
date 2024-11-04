@@ -1,0 +1,7 @@
+services:
+    app:
+        build: ./app
+        ports:
+            - '8000:5000'
+        volumes:
+            - ./app/uploads:/app/uploads
